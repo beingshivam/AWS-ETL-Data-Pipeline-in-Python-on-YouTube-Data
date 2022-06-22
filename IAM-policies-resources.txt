@@ -1,0 +1,28 @@
+
+
+--GLUE policy resources:
+
+
+ "Resource": [
+                "arn:aws:s3:::bigdata-on-youtube-raw-euwest1-14317622-dev/*",
+                "arn:aws:s3:::bigdata-on-youtube-cleansed-euwest1-14317622-dev/*",
+                "arn:aws:s3:::bigdata-on-youtube-assets-euwest-14317622-dev/*",
+                "arn:aws:s3:::bigdata-on-youtube-raw-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-cleansed-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-assets-euwest-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-analytics-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-analytics-euwest1-14317622-dev/*"
+            ]
+        },
+		
+		
+--S3 read write policy
+
+ "Resource": [
+                "arn:aws:s3:::bigdata-on-youtube-raw-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-raw-euwest1-14317622-dev/*",
+                "arn:aws:s3:::bigdata-on-youtube-cleansed-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-cleansed-euwest1-14317622-dev/*",
+                "arn:aws:s3:::bigdata-on-youtube-analytics-euwest1-14317622-dev",
+                "arn:aws:s3:::bigdata-on-youtube-analytics-euwest1-14317622-dev/*"
+            ]
